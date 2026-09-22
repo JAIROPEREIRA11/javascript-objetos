@@ -13,3 +13,11 @@ cliente.enderecos = [
     complemento: "ap 934",
 },  
 ];
+
+const chavesDoObjeto = Object.keys(cliente);
+
+console.log(chavesDoObjeto);
+
+if (!chavesDoObjeto.includes("enderecos")) {
+    console.error("Erro. É necessario ter um endereço cadastrado.");
+}
