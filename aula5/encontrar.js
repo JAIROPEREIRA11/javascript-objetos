@@ -4,6 +4,6 @@ function encontrar(lista, chave, valor){
     return lista.find((item) => item[chave] === valor);
 }
 
-const encontrado = encontrar(clientes, "nome", "kirby");
+const encontrado = encontrar(clientes, "nome", "Stephine");
 
 console.log(encontrado);
